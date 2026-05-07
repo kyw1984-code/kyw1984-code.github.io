@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인정보처리방침 — PitchCoach</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: #f8f9fa; color: #212529; line-height: 1.7; padding: 0 0 80px;
+    }
+    header { background: #10B981; color: #fff; padding: 40px 24px 32px; }
+    header h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+    header p  { font-size: 0.9rem; opacity: 0.85; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 24px 0; }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.1rem; font-weight: 700; color: #10B981;
+      border-left: 4px solid #10B981; padding-left: 12px; margin-bottom: 14px;
+    }
+    p { font-size: 0.95rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; font-size: 0.95rem; }
+    ul li { margin-bottom: 6px; }
+    .updated { font-size: 0.85rem; color: #6c757d; margin-top: 4px; }
+    footer { text-align: center; font-size: 0.85rem; color: #adb5bd; margin-top: 48px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>개인정보처리방침</h1>
+    <p>PitchCoach — AI 발표 코치</p>
+    <p class="updated">시행일: 2025년 1월 1일 &nbsp;|&nbsp; 최종 수정: 2026년 5월 7일</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. 수집하는 개인정보</h2>
+      <p>PitchCoach는 회원가입을 요구하지 않으며, 사용자를 직접 식별할 수 있는 개인정보(이름, 이메일, 전화번호 등)를 수집하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>2. 마이크 및 음성 데이터</h2>
+      <p>본 앱은 발표 연습 분석을 위해 마이크 권한을 요청합니다. 음성 데이터는 다음과 같이 처리됩니다.</p>
+      <ul>
+        <li>발표 음성은 분석을 위해 텍스트로 변환됩니다.</li>
+        <li>분석 결과(말 속도, 발음 점수, 채움말 횟수 등)는 기기에 저장됩니다.</li>
+        <li>음성 원본은 기기에 임시 저장되며, 분석 완료 후 사용자가 삭제하거나 자동 폐기됩니다.</li>
+        <li>음성 인식은 OpenAI 또는 Google Cloud Speech-to-Text를 통해 수행되며, 해당 제공자의 정책을 따릅니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. 기기 내 저장 데이터</h2>
+      <ul>
+        <li><strong>발표 분석 결과</strong> — 점수, 채움말, 속도, 시간 등. 기기 내 데이터베이스에 저장.</li>
+        <li><strong>발표 스크립트/메모</strong> — 사용자가 작성한 텍스트. 기기 내 로컬 스토리지에 저장.</li>
+        <li><strong>앱 설정</strong> — 분석 옵션, 다크모드, 알림. 기기 내 로컬 스토리지에 저장.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. 광고 (Google AdMob)</h2>
+      <p>본 앱은 Google AdMob 광고 SDK를 통해 광고를 표시합니다. AdMob은 광고 식별자(IDFA/GAID), 광고 노출·클릭 통계, 대략적인 위치(국가 단위) 및 기기 정보를 처리할 수 있습니다.</p>
+      <p>광고 개인화 여부는 운영체제 설정에 따라 결정됩니다. 자세한 내용은 <a href="https://policies.google.com/technologies/ads">Google 광고 및 개인정보 정책</a>을 참고해 주세요.</p>
+    </section>
+
+    <section>
+      <h2>5. 제3자 서비스</h2>
+      <ul>
+        <li>Google AdMob — 광고 게재</li>
+        <li>OpenAI / Google Cloud — 음성 인식 및 발표 피드백 생성</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. 어린이 개인정보 보호</h2>
+      <p>본 앱은 만 14세 미만 아동을 대상으로 개인정보를 수집하지 않습니다.</p>
+    </section>
+
+    <section>
+      <h2>7. 보안</h2>
+      <p>분석 결과는 기기 내에만 저장됩니다. 외부 API 통신은 HTTPS로 암호화됩니다.</p>
+    </section>
+
+    <section>
+      <h2>8. 방침 변경</h2>
+      <p>본 방침이 변경될 경우 이 페이지에 최신 내용을 게시합니다.</p>
+    </section>
+
+    <section>
+      <h2>9. 문의</h2>
+      <ul>
+        <li>개발사: Shoktree</li>
+        <li>이메일: <a href="mailto:kyw1984@gmail.com">kyw1984@gmail.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Shoktree. All rights reserved.</footer>
+</body>
+</html>

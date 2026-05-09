@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PitchCoach — Support</title>
+  <link rel="stylesheet" href="../_style.css" />
+  <style>
+    .contact-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      margin: 1rem 0;
+    }
+    .contact-card a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1.05rem;
+    }
+    .contact-card a:hover { text-decoration: underline; }
+    .response { color: var(--text2); font-size: 0.9rem; margin-top: 0.5rem; }
+    details { margin: 0.5rem 0; padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg2); }
+    details summary { cursor: pointer; font-weight: 600; color: var(--text); }
+    details[open] summary { margin-bottom: 0.75rem; }
+    details p { font-size: 0.95rem; color: var(--text2); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-left">
+        <div>
+          <div class="app-name">🎤 PitchCoach</div>
+          <div class="doc-type" id="doc-label">Support</div>
+        </div>
+      </div>
+      <select class="lang-select" onchange="setLang(this.value)">
+        <option value="en">English</option>
+        <option value="ko">한국어</option>
+        <option value="ja">日本語</option>
+        <option value="es">Español</option>
+        <option value="pt">Português</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ENGLISH -->
+    <div class="lang-content active" id="lang-en">
+      <div class="section">
+        <h2>Contact Support</h2>
+        <p>We are happy to help with any questions, bug reports, or feedback about PitchCoach.</p>
+
+        <div class="contact-card">
+          <div>📧 <a href="mailto:kyw1984@gmail.com?subject=PitchCoach%20Support">kyw1984@gmail.com</a></div>
+          <div class="response">Typical response time: within 48 hours (Monday–Friday, KST).</div>
+        </div>
+
+        <p>When emailing, please include:</p>
+        <ul>
+          <li>Your device model (e.g., iPhone 15 Pro Max, iPad Air 11-inch)</li>
+          <li>iOS version</li>
+          <li>App version (Settings → Version)</li>
+          <li>A short description of the issue and, if possible, a screenshot</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>How do I cancel my subscription?</summary>
+          <p>Open the iPhone Settings app → tap your name at the top → Subscriptions → PitchCoach → Cancel Subscription. Cancellation takes effect at the end of the current billing period; you keep access until then.</p>
+        </details>
+
+        <details>
+          <summary>How do I restore purchases on a new device?</summary>
+          <p>Sign in with the same Apple ID you used to purchase. Open PitchCoach → Paywall screen → tap &ldquo;Restore purchases&rdquo;.</p>
+        </details>
+
+        <details>
+          <summary>How do I get the student discount?</summary>
+          <p>Open the Paywall and tap &ldquo;I'm a student&rdquo;. Enter your academic email (.edu, .ac.kr, etc.). We send a 6-digit verification code; once verified, the 50%-off annual plan is unlocked.</p>
+        </details>
+
+        <details>
+          <summary>What happens to my recordings?</summary>
+          <p>Audio recordings are sent to our server and processed by an AI transcription service. <strong>They are deleted from our servers within 24 hours.</strong> Local copies on your device persist until you delete them. We never use your recordings to train AI models. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+        </details>
+
+        <details>
+          <summary>Why was my analysis inaccurate?</summary>
+          <p>AI transcription is not perfect, especially for non-native English with strong accents or for technical jargon. If you see clearly wrong feedback, please email us with the practice ID (visible in History → tap a session) so we can investigate.</p>
+        </details>
+
+        <details>
+          <summary>How do I delete my account?</summary>
+          <p>Open Settings → Account → &ldquo;Delete Account&rdquo;. This permanently removes all your data from our servers. The action is irreversible.</p>
+        </details>
+
+        <details>
+          <summary>Does the app work without internet?</summary>
+          <p>You can record and review past analyses offline, but new transcription/analysis requires an internet connection because the AI model runs on our server.</p>
+        </details>
+
+        <details>
+          <summary>Which languages are supported?</summary>
+          <p>The app interface supports English, Korean, Japanese, Spanish, and Portuguese. Speech analysis currently supports English presentations (we can transcribe non-native English with reasonable accuracy). More languages are planned.</p>
+        </details>
+      </div>
+
+      <div class="section">
+        <h2>Bug Reports &amp; Feature Requests</h2>
+        <p>You can also send feedback directly from inside the app: <strong>Settings → Send feedback</strong>. Choose a category (bug report, suggestion, etc.), describe the issue, and submit. Submissions go straight to our team.</p>
+      </div>
+
+      <div class="section">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- KOREAN -->
+    <div class="lang-content" id="lang-ko">
+      <div class="section">
+        <h2>고객 지원 문의</h2>
+        <p>PitchCoach에 관한 문의·버그 신고·피드백을 보내주시면 친절히 답변드리겠습니다.</p>
+
+        <div class="contact-card">
+          <div>📧 <a href="mailto:kyw1984@gmail.com?subject=PitchCoach%20Support">kyw1984@gmail.com</a></div>
+          <div class="response">평균 응답 시간: 48시간 이내 (평일, 한국 시간 기준).</div>
+        </div>
+
+        <p>이메일 작성 시 다음 정보를 포함해주세요:</p>
+        <ul>
+          <li>기기 모델명 (예: iPhone 15 Pro Max, iPad Air 11-inch)</li>
+          <li>iOS 버전</li>
+          <li>앱 버전 (설정 → 버전)</li>
+          <li>문제 상황 설명 + 가능하면 스크린샷</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>자주 묻는 질문 (FAQ)</h2>
+
+        <details>
+          <summary>구독을 어떻게 취소하나요?</summary>
+          <p>설정 앱 → 상단 본인 이름 → 구독 → PitchCoach → 구독 취소. 취소는 현재 결제 주기 종료 시점에 적용되며, 그때까지는 계속 이용 가능합니다.</p>
+        </details>
+
+        <details>
+          <summary>새 기기에서 구매를 복원하려면?</summary>
+          <p>구매 시 사용한 동일 Apple ID로 로그인하신 뒤, PitchCoach → Paywall 화면 → &ldquo;구매 복원&rdquo; 버튼을 누르세요.</p>
+        </details>
+
+        <details>
+          <summary>학생 할인은 어떻게 받나요?</summary>
+          <p>Paywall에서 &ldquo;학생 인증&rdquo;을 누른 후 학교 이메일(.edu, .ac.kr 등)을 입력하세요. 6자리 인증 코드가 발송되며, 인증 완료 시 연간 플랜 50% 할인이 적용됩니다.</p>
+        </details>
+
+        <details>
+          <summary>녹음 파일은 어떻게 처리되나요?</summary>
+          <p>녹음은 서버로 전송되어 AI 전사 서비스로 처리됩니다. <strong>처리 후 24시간 이내 서버에서 삭제됩니다.</strong> 기기 내 로컬 사본은 사용자가 삭제할 때까지 유지됩니다. 사용자 녹음을 AI 모델 학습에 사용하지 않습니다. 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 참고해주세요.</p>
+        </details>
+
+        <details>
+          <summary>분석 결과가 부정확한데 왜 그런가요?</summary>
+          <p>AI 전사는 완벽하지 않으며, 특히 강한 억양의 영어나 전문 용어에서 오인식이 발생할 수 있습니다. 명백히 잘못된 피드백을 발견하시면 연습 ID(히스토리 → 세션 탭으로 확인 가능)와 함께 이메일을 주시면 조사하겠습니다.</p>
+        </details>
+
+        <details>
+          <summary>계정을 삭제하려면?</summary>
+          <p>설정 → 계정 → &ldquo;계정 삭제&rdquo;. 서버의 모든 사용자 데이터가 영구 삭제되며 되돌릴 수 없습니다.</p>
+        </details>
+
+        <details>
+          <summary>인터넷 없이도 사용 가능한가요?</summary>
+          <p>녹음과 과거 분석 결과 조회는 오프라인에서도 가능하지만, 새로운 전사·분석은 AI 모델이 서버에서 동작하므로 인터넷 연결이 필요합니다.</p>
+        </details>
+
+        <details>
+          <summary>어떤 언어를 지원하나요?</summary>
+          <p>앱 UI는 영어·한국어·일본어·스페인어·포르투갈어를 지원합니다. 음성 분석은 현재 영어 발표를 대상으로 하며 비원어민 영어도 합리적 수준으로 전사할 수 있습니다. 더 많은 언어가 추가될 예정입니다.</p>
+        </details>
+      </div>
+
+      <div class="section">
+        <h2>버그 신고 &amp; 기능 제안</h2>
+        <p>앱 안에서도 직접 피드백을 보낼 수 있습니다: <strong>설정 → 피드백 보내기</strong>. 카테고리(버그 신고·제안 등)를 선택하고 내용을 작성하면 즉시 팀에 전달됩니다.</p>
+      </div>
+
+      <div class="section">
+        <h2>관련 링크</h2>
+        <ul>
+          <li><a href="privacy.html">개인정보처리방침</a></li>
+          <li><a href="terms.html">서비스 이용약관</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="lang-content" id="lang-ja"></div>
+    <div class="lang-content" id="lang-es"></div>
+    <div class="lang-content" id="lang-pt"></div>
+  </main>
+
+  <footer style="text-align:center; padding:2rem 1rem; color:var(--text2); font-size:0.85rem">
+    <div>© 2026 Shocktree · <a href="mailto:kyw1984@gmail.com">kyw1984@gmail.com</a></div>
+    <div style="margin-top:0.5rem">
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </footer>
+
+  <script>
+    const labels = { en: 'Support', ko: '고객 지원', ja: 'サポート', es: 'Soporte', pt: 'Suporte' };
+    function setLang(lang) {
+      const fallbackLangs = ['ja', 'es', 'pt'];
+      const target = fallbackLangs.includes(lang) ? 'en' : lang;
+      document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+      document.getElementById('lang-' + target)?.classList.add('active');
+      document.getElementById('doc-label').textContent = labels[lang] || labels.en;
+      localStorage.setItem('lang', lang);
+    }
+    const saved = localStorage.getItem('lang');
+    const browser = navigator.language?.slice(0, 2);
+    const supported = ['en', 'ko', 'ja', 'es', 'pt'];
+    const initial = saved || (supported.includes(browser) ? browser : 'en');
+    document.querySelector('.lang-select').value = initial;
+    setLang(initial);
+  </script>
+</body>
+</html>
